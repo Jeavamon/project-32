@@ -43,7 +43,7 @@ function draw(){
 async function getBackgroundImg(){
 
     // write code to fetch time from API
-    var response = await fetch("http://worldtimeapi.org/api/timezone/Europe/London");
+    var response = await fetch("https://worldtimeapi.org/api/timezone/Europe/London");
     
  
     //change the data in JSON format and store it in variable responseJSON
